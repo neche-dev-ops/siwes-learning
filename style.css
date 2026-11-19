@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid darkblue;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid darkblue;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+}
+
+h2 {
+  color: darkblue;
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: crimson;
+  font-weight: bold;
+}
+
+/* ===== Table ===== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid darkblue;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: lightblue;
+}
+
+footer {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+} 
+
+body.dark {
+  background-color: #1a1a2e;
+  color: white;
+}
+
+body.dark .card {
+  background-color: #16213e;
+  border-color: orange;
+}
+
+body.dark h2 {
+  color: orange;
+}
